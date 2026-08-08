@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crud Operations With Firebase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h2>CRUD OPERATION WITH FIREBASE</h2>
+        <div id="form">
+            <label for="rollNo">Roll No.</label>
+            <input type="number" id="rollNo" placeholder="Enter your roll no."> <br><br>
+            <label for="fullName">Full Name</label>
+            <input type="text" id="fullName" placeholder="Enter your full name"> <br><br>
+            <label for="gender">Gender</label>
+            <input type="text" id="gender" placeholder="Enter your gender"> <br><br>
+            <label for="address">Address</label>
+            <input type="text" id="address" placeholder="Enter your address"> <br><br>
+        </div>
+        <div id="buttons">
+            <button id="create">Create</button>
+            <button id="read">Read</button>
+            <button id="update">Update</button>
+            <button id="delete">Delete</button>
+        </div>
+    </div>
+
+
+    <script src="https://www.gstatic.com/firebasejs/12.17.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/12.17.0/firebase-database-compat.js"></script>
+
+    <script src="app.js"></script>
+</body>
+</html>
